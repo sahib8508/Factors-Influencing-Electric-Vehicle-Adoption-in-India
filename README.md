@@ -1,59 +1,43 @@
 # Factors Influencing Electric Vehicle Adoption in India
 
-## Project Overview
+## Overview
 
-This project analyzes electric vehicle (EV) adoption across Indian states by combining EV sales, per capita income, and electricity availability datasets. The objective is to understand whether EV adoption is primarily influenced by economic prosperity, electricity infrastructure, or a combination of both.
+Electric vehicle adoption in India has grown rapidly over the past few years, but the rate of adoption varies significantly across states. This project investigates whether economic prosperity and electricity availability influence EV adoption by analyzing state-wise data from 2021 to 2024.
 
-The project is currently under development. Data collection has been completed, while data cleaning, integration, dashboard development, and analysis are in progress.
+The project combines EV sales, per capita income, and electricity datasets to identify patterns and trends using Microsoft Excel and Power BI.
+
+> **Project Status:** 🚧 Work in Progress
 
 ---
 
 ## Research Question
 
-**Are electric vehicles in India primarily adopted in economically stronger states with reliable electricity infrastructure, or are other factors driving EV adoption?**
+**Is electric vehicle adoption in India primarily driven by higher income levels and better electricity infrastructure, or are other factors responsible for the variation across states?**
 
 ---
 
-## Project Status
+## Objectives
 
-**Current Progress**
-
-* [x] EV sales dataset collected (2021–2024)
-* [x] Per capita income dataset collected
-* [x] Electricity demand and deficit dataset collected
-* [x] Initial Power BI dashboard created
-* [x] Data cleaning and standardization
-* [x] Dataset integration
-* [] DAX measure development
-* [ ] Dashboard enhancement
-* [ ] Final analysis and insights
-* [ ] Documentation
+* Analyze state-wise EV adoption trends in India.
+* Compare EV sales across different vehicle categories.
+* Study the relationship between per capita income and EV adoption.
+* Examine the impact of electricity availability on EV adoption.
+* Build interactive dashboards and derive meaningful insights.
 
 ---
 
-## Datasets
+## Datasets Used
 
 ### Electric Vehicle Sales
 
 * State-wise EV sales
 * Years: 2021–2024
-* Vehicle categories:
-
-  * Two-Wheeler
-  * Three-Wheeler
-  * Four-Wheeler
-  * Bus
-  * Others
+* Categories: Two-Wheeler, Three-Wheeler, Four-Wheeler, Bus and Others
 
 ### Per Capita Income
 
 * State-wise annual per capita income
-* Financial Years:
-
-  * 2020–21
-  * 2021–22
-  * 2022–23
-  * 2023–24
+* Financial Years: 2020–21 to 2023–24
 
 ### Electricity Dataset
 
@@ -61,92 +45,61 @@ The project is currently under development. Data collection has been completed, 
 * Peak Demand Met
 * Demand Not Met
 * Power Deficit (%)
-* Financial Years:
-
-  * 2020–21
-  * 2021–22
-  * 2022–23
-  * 2023–24
+* Financial Years: 2020–21 to 2023–24
 
 ---
 
-## Tools Used
+## Tools and Technologies
 
 * Microsoft Excel
 * Power Query (M Language)
+* Power Pivot
 * Power BI Desktop
-* DAX
-* Git & GitHub
+* DAX (Data Analysis Expressions)
 
 ---
 
-## Current Work
+## Current Progress
 
-The following tasks are currently being completed:
-
-* Cleaning state names across datasets
-* Removing unnecessary regional records
-* Standardizing data formats
-* Creating calculated columns
-* Building DAX measures
-* Designing Power BI dashboard visuals
-* Developing interactive filters and KPIs
+* ✅ Data collection completed
+* ✅ Data cleaning and preprocessing in progress
+* ✅ Dataset standardization
+* 🚧 Dataset integration
+* 🚧 Excel analysis
+* 🚧 Power BI dashboard development
+* 🚧 DAX measure creation
+* ⏳ Final insights and conclusions
 
 ---
 
-## Planned Dashboard
+## Expected Dashboard Features
 
-The final dashboard will include:
-
-* Total EV Sales KPI
-* Year-wise EV Sales Trend
+* KPI Cards
 * State-wise EV Sales Analysis
 * Top 5 EV Adopting States
 * Top 5 States by Per Capita Income
+* Year-wise EV Sales Trend
 * Vehicle Category Analysis
-* Income vs EV Sales Comparison
+* Income vs EV Adoption Comparison
 * Electricity Deficit Analysis
-* Interactive Year and State Filters
+* Interactive Filters and Slicers
 
 ---
 
-## Repository Structure
+## Future Enhancements
 
-```
-Data/
-│
-├── EV Sales
-├── Per Capita Income
-├── Electricity Data
-
-Power BI/
-├── Dashboard.pbix
-
-Images/
-
-README.md
-```
+* Add charging infrastructure data.
+* Include forecasting of EV adoption trends.
+* Expand the analysis using additional socioeconomic indicators.
 
 ---
 
-## Future Scope
+## Disclaimer
 
-* Complete data integration
-* Add analytical insights
-* Improve dashboard design
-* Publish the final Power BI report
-* Document project findings
+The datasets used in this project are collected from publicly available government and public sources. This project is being developed for learning, portfolio, and analytical purposes.
 
 ---
 
 ## Author
 
 **Sahib Hussain**
-
-B.Tech Graduate | Data Analytics Enthusiast
-
----
-
-## Disclaimer
-
-This project is being developed for educational and portfolio purposes using publicly available datasets.
