@@ -1,102 +1,71 @@
 # Factors Influencing Electric Vehicle Adoption in India
 
-## Overview
+## About the Project
 
-Electric vehicle adoption in India has grown rapidly over the past few years, but the rate of adoption varies significantly across states. This project investigates whether economic prosperity and electricity availability influence EV adoption by analyzing state-wise data from 2021 to 2024.
+I started this project to answer a simple question:
 
-The project combines EV sales, per capita income, and electricity datasets to identify patterns and trends using Microsoft Excel and Power BI.
+**Are electric vehicles being adopted because people need them, or because only wealthier states can afford them?**
 
-> **Project Status:** 🚧 Work in Progress
+To explore this, I collected and combined three different datasets covering Indian states from 2021 to 2024:
 
----
+* Electric vehicle sales
+* Per capita income
+* Electricity demand and power deficit
 
-## Research Question
+Instead of looking only at EV sales, I wanted to compare them with a state's income level and electricity situation to understand whether these factors influence EV adoption.
 
-**Is electric vehicle adoption in India primarily driven by higher income levels and better electricity infrastructure, or are other factors responsible for the variation across states?**
-
----
-
-## Objectives
-
-* Analyze state-wise EV adoption trends in India.
-* Compare EV sales across different vehicle categories.
-* Study the relationship between per capita income and EV adoption.
-* Examine the impact of electricity availability on EV adoption.
-* Build interactive dashboards and derive meaningful insights.
+The project is currently under development.
 
 ---
 
-## Datasets Used
+## What I'm Working On
 
-### Electric Vehicle Sales
-
-* State-wise EV sales
-* Years: 2021–2024
-* Categories: Two-Wheeler, Three-Wheeler, Four-Wheeler, Bus and Others
-
-### Per Capita Income
-
-* State-wise annual per capita income
-* Financial Years: 2020–21 to 2023–24
-
-### Electricity Dataset
-
-* Peak Demand
-* Peak Demand Met
-* Demand Not Met
-* Power Deficit (%)
-* Financial Years: 2020–21 to 2023–24
+* Cleaning and standardizing data collected from different sources.
+* Matching state names across all datasets.
+* Combining the datasets into a single master dataset.
+* Performing analysis in Microsoft Excel.
+* Building an interactive dashboard in Power BI.
+* Identifying patterns and relationships between EV sales, income, and electricity availability.
 
 ---
 
-## Tools and Technologies
+## Tools Used
 
 * Microsoft Excel
 * Power Query (M Language)
 * Power Pivot
-* Power BI Desktop
-* DAX (Data Analysis Expressions)
+* Power BI
+* DAX
 
 ---
 
-## Current Progress
+## Data Used
 
-* ✅ Data collection completed
-* ✅ Data cleaning and preprocessing in progress
-* ✅ Dataset standardization
-* 🚧 Dataset integration
-* 🚧 Excel analysis
-* 🚧 Power BI dashboard development
-* 🚧 DAX measure creation
-* ⏳ Final insights and conclusions
+The project combines three datasets:
+
+* State-wise Electric Vehicle Sales (2021–2024)
+* State-wise Per Capita Income
+* State-wise Electricity Statistics (Peak Demand, Peak Demand Met and Power Deficit)
 
 ---
 
-## Expected Dashboard Features
+## Project Status
 
-* KPI Cards
-* State-wise EV Sales Analysis
-* Top 5 EV Adopting States
-* Top 5 States by Per Capita Income
-* Year-wise EV Sales Trend
-* Vehicle Category Analysis
-* Income vs EV Adoption Comparison
-* Electricity Deficit Analysis
-* Interactive Filters and Slicers
+🚧 Work in Progress
+
+The datasets have been collected and cleaned. The analysis and dashboard are currently being developed.
 
 ---
 
-## Future Enhancements
+## Authenticity
 
-* Add charging infrastructure data.
-* Include forecasting of EV adoption trends.
-* Expand the analysis using additional socioeconomic indicators.
+Every part of this project has been completed by me.
 
----
+I collected the datasets myself from publicly available sources, cleaned and standardized the data, prepared the master dataset, wrote the formulas and DAX measures, and designed the Excel workbook and Power BI dashboard independently.
 
-## Disclaimer
+No synthetic or fabricated data has been used. The analysis is based only on real-world data from public sources.
 
-The datasets used in this project are collected from publicly available government and public sources. This project is being developed for learning, portfolio, and analytical purposes.
+This repository reflects my own work and learning throughout the project.
 
 ---
 
