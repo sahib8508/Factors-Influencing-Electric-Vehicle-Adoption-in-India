@@ -24,7 +24,7 @@ The project is currently under development. Data collection has been completed, 
 * [x] Initial Power BI dashboard created
 * [x] Data cleaning and standardization
 * [x] Dataset integration
-* [x] DAX measure development
+* [] DAX measure development
 * [ ] Dashboard enhancement
 * [ ] Final analysis and insights
 * [ ] Documentation
